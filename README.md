@@ -27,6 +27,14 @@ python manage.py migrate
 4- install the application in the project:
 python manage.py startapp myapp
 
+5- create models, serializers, views and its api urls inside the app folder.
+
+6- migrate again to implement the models in the database:
+python manage.py makemigrations
+python manage.py migrate
+
+7- test the api links in the postman.
+
 
  
 
